@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    padding: 2rem;
+    font-size: 25px;
+    text-align: center;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 80%;
+}
+.img-cont{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    position: relative;
+    cursor: pointer;
+}
+p{
+    display: none;
+}
